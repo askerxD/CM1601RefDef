@@ -1,4 +1,4 @@
-package com.example.javacw.objects;
+package com.example.cm1601refdef.objects;
 
 public class Part {
 
