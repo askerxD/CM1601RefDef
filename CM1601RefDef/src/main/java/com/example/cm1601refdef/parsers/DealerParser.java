@@ -1,7 +1,7 @@
 package com.example.cm1601refdef.parsers;
 
 import com.example.cm1601refdef.objects.Dealer;
-import com.example.javacw.utils.ValidationUtil;
+import com.example.cm1601refdef.utils.ValidationUtil;
 import java.io.*;
 import java.util.ArrayList;
 
