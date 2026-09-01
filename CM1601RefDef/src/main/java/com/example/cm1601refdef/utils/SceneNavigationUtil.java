@@ -1,6 +1,6 @@
-package com.example.javacw.utils;
+package com.example.cm1601refdef.utils;
 
-import com.example.javacw.HelloApplication;
+import com.example.cm1601refdef.HelloApplication;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
