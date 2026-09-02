@@ -17,7 +17,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class POSCheckoutController implements Initializable {
-    private static final String INVENTORY_PATH = "src/main/java/com/example/javacw/data/inventory_legacy.txt";
+    private static final String INVENTORY_PATH = "src/main/java/com/example/cm1601refdef/data/inventory_legacy.txt";
 
     @FXML
     private Button inventoryDashboardButton;

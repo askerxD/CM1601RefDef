@@ -26,7 +26,7 @@ import java.util.ResourceBundle;
 import java.util.Set;
 
 public class HelloController implements Initializable {
-     private static final String INVENTORY_PATH = "src/main/java/com/example/javacw/data/inventory_legacy.txt";
+     private static final String INVENTORY_PATH = "src/main/java/com/example/cm1601refdef/data/inventory_legacy.txt";
 
      @FXML
      private Button inventoryDashboardButton;
@@ -331,7 +331,7 @@ public class HelloController implements Initializable {
                                    setText(null);
                               } else {
                                    try {
-                                        Image image = new Image(getClass().getResourceAsStream("/com/example/javacw/" + item));
+                                        Image image = new Image(getClass().getResourceAsStream("/com/example/cm1601refdef/" + item));
                                         ImageView imageView = new ImageView(image);
                                         imageView.setFitHeight(50);
                                         imageView.setFitWidth(50);

@@ -1,9 +1,9 @@
-package com.example.javacw;
+package com.example.cm1601refdef;
 
-import com.example.javacw.objects.Part;
-import com.example.javacw.service.AuditService;
-import com.example.javacw.service.PartService;
-import com.example.javacw.utils.ValidationUtil;
+import com.example.cm1601refdef.objects.Part;
+import com.example.cm1601refdef.service.AuditService;
+import com.example.cm1601refdef.service.PartService;
+import com.example.cm1601refdef.utils.ValidationUtil;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
@@ -208,7 +208,7 @@ public class UPDController implements Initializable {
     private void updateImageView(String imageName) {
         if (imageName != null && !imageName.isEmpty()) {
             try {
-                Image img = new Image(getClass().getResourceAsStream("/com/example/javacw/" + imageName));
+                Image img = new Image(getClass().getResourceAsStream("/com/example/cm1601refdef/" + imageName));
                 partImage.setImage(img);
                 partImage.setFitHeight(100);
                 partImage.setFitWidth(100);

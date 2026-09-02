@@ -1,8 +1,8 @@
-package com.example.javacw;
+package com.example.cm1601refdef;
 
-import com.example.javacw.objects.AuditLogEntry;
-import com.example.javacw.service.AuditService;
-import com.example.javacw.utils.SceneNavigationUtil;
+import com.example.cm1601refdef.objects.AuditLogEntry;
+import com.example.cm1601refdef.service.AuditService;
+import com.example.cm1601refdef.utils.SceneNavigationUtil;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
@@ -72,7 +72,7 @@ public class AuditLogController implements Initializable {
     }
 
     private void exportAuditLog() {
-        String exportPath = "src/main/java/com/example/javacw/data/audit_log_export.txt";
+        String exportPath = "src/main/java/com/example/cm1601refdef/data/audit_log_export.txt";
         try {
             auditService.exportAuditLog(exportPath);
             auditService.logAuditExportAsManager(exportPath);
